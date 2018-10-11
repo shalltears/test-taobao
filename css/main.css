@@ -197,7 +197,7 @@ body{
     width: 1190px;
     margin: 0 auto;
     text-align: center;
-    line-height: 30px;
+    line-height: 28px;
 }
 .wrapper-nav-left{
     height: 30px;
@@ -232,10 +232,11 @@ body{
 }
 .wrapper-body-left{
     height: 522px;
-    width: 190px;
+    width: 188px;
     border: #ff5000 solid 1px;
     background-color: white;
     display: inline-block;
+    border-top: none;
 }
 .wrapper-body-ul i{
     font-size: 14px;
@@ -487,6 +488,9 @@ body{
     color: #f40;
     padding-left: 35px;
 }
+.wrapper-body-right-news{
+    height: 95px;
+}
 .news-ul{
     display: block;
     height: 24px;
@@ -573,6 +577,14 @@ body{
     width: 70px;
     height: 75px;
     border: 1px solid #f4f4f4;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+.box-li:hover{
+    border-color: #f40;
+}
+.box-li p{
+    line-height: 24px;
 }
 .ali-app{
     width: 276px;
